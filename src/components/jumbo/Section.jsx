@@ -1,0 +1,141 @@
+import React from "react";
+import styled from "styled-components";
+export default function CardSec() {
+  return (
+    <Card>
+        <CardFrame>
+            <CardTitle>
+                <CardH1>Simple, easy payments</CardH1>
+                <CardP>Building a business is hard. Getting paid shouldn't be.</CardP>
+            </CardTitle>
+            <CardPane>
+                <ImageContainer>
+                    <CardImage src="/images/Collect-Payments-for-Multiple-Channels-1.1.gif" alt=""/>
+                </ImageContainer>
+                <CardContent>
+                    <Item>
+                    <CardHeader>Delight customers with a seamless payments experience</CardHeader>
+                    <CardCaption>Give your customers the gift of modern, frictionless, painless payments. Integrate Paystack once and let your customers pay you however they want.</CardCaption>
+                    <CardUl>
+                        <List>
+                        <CardList>Card</CardList>
+                        <CardList>Bank Account</CardList>
+                        <CardList>Bank Transfer</CardList>
+                        <CardList>USSD</CardList>
+                        </List>
+                        <List>
+                        <CardList>Apple Pay</CardList>
+                    <CardList>Visa QR</CardList>
+                        <CardList>Mobile Money</CardList>
+                        <CardList>POS</CardList>
+                        </List>
+
+                    </CardUl>
+                    </Item>
+                    <Item>
+                    <CardHeader2>Enjoy phenomenal transaction success rates</CardHeader2>
+                    <CardCaption2>We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.</CardCaption2>
+                    <div className="flex">
+                        <img src="images/check.svg" alt="" className="w-[15git px] mr-2"/>
+                    <CardLink>Find out how we achieve success rates</CardLink>
+                    </div>
+                   
+                    </Item>
+                       
+                </CardContent>
+            </CardPane>
+        </CardFrame>
+    </Card>
+  );
+}
+
+const Card = styled.div`
+// padding:10px;
+`;
+const CardFrame = styled.div`
+
+`;
+const CardTitle = styled.div`
+
+`;
+const CardH1 = styled.div`
+
+`;
+const CardP = styled.div`
+
+`;
+const Item = styled.div`
+margin:auto;
+width:500px;
+`;
+const CardPane = styled.div`
+display:flex;
+padding:0px;
+margin:90px;
+@media (max-width:1000px){
+    flex-direction:column;
+    margin:20px;
+}
+`;
+const ImageContainer = styled.div`
+width:100%
+@media (max-width:1000px){
+    margin:0;
+}
+`;
+const CardImage = styled.img`
+margin:40px 0;
+@media (max-width:1000px){
+    margin:0;
+}
+`;
+const CardContent = styled.div`
+padding:0 30px;
+margin:0 50px;
+display:flex;
+flex-direction:column;
+`;
+const CardHeader = styled.h1`
+font-size:35px;
+font-weight:normal;
+margin-bottom:20px;
+`;
+const CardCaption = styled.p`
+font-family: Graphik;
+font-style: normal;
+font-weight: 400;
+color: rgb(1, 27, 51);
+font-size: 20px;
+line-height: 28.5px;
+margin-bottom:30px;
+`;
+const CardHeader2 = styled.h1`
+font-size:35px;
+font-weight:normal;
+margin-bottom:20px;
+margin-top:50px;
+`;
+const CardCaption2 = styled.p`
+font-family: Graphik;
+font-style: normal;
+font-weight: 400;
+color: rgb(1, 27, 51);
+font-size: 20px;
+line-height: 28.5px;
+margin-bottom:30px;
+`;
+const CardUl = styled.ul`
+display:flex;
+`;
+const List = styled.div`
+width:100%;
+margin:0 5px;
+`;
+const CardList = styled.li`
+padding:5px 20px;
+margin:10px 0;
+`;
+const CardLink = styled.a`
+cursor:pointer;
+color:#3DBE62;
+`;

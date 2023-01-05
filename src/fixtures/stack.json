@@ -1,0 +1,56 @@
+{
+    "item":[
+    {
+       
+            "id":1,
+            "image":"/images/Collect-Payments-for-Multiple-Channels-1.1.gif",
+            "title":"Delight customers with a seamless payments experience",
+            "title2":"Enjoy phenomenal transaction success rates",
+            "caption":"Give your customers the gift of modern, frictionless, painless payments. Integrate Paystack once and let your customers pay you however they want.",
+            "caption2":"We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.",
+            "list1":"Card",
+            "list2":"Bank Account",
+            "list3":"Bank Transfer",
+            "list4":"USSD",
+            "item5":"Apple Pay",
+            "item6":"Visa QR",
+            "item7":"Mobile Money",
+            "item8":"POS",
+                       "link":"Find out how we achieve high success rates",
+            "direction":"row"
+        
+        
+    },
+    {
+       
+            "id":2,
+            "image":"/images/Robust-Suite-of-APIs-Opt.png",
+            "title":"Build custom payments experiences with well-documented APIs",
+            "caption":"Developers love our thorough, well-documented APIs that let you to build everything from simple weekend projects, to complex financial products serving hundreds of thousands of customers. If you can imagine it, you can build it with Paystack.",
+           "direction":"row-reverse",
+           "list1":"Collect one-time and recurring payments from your app or website",
+               "list2":"Make instant transfers",
+               "list3":"Retrieve all your transaction and customer data",
+               "list4":"Verify the identity of customers",
+               "link":"PayStack API Quickstart"
+        
+        
+    }
+   
+],
+        "item2":[
+            {
+       
+                "id":3,
+                "video":"/images/Advanced-Fraud-Protection.mp4",
+                "title":"Protect yourself and your customers with advanced fraud detection",
+                "title2":"Detailed reporting for accounting, reconciliation, and audits",
+                "caption":"Paystack’s combination of automated and manual fraud systems protect you from fraudulent transactions and associated chargeback claims.",
+                "caption2":"Understand your customers’ purchase patterns and do easy reconciliations with a robust data Dashboard and easy exports.",
+               
+               "direction":"row"
+            
+            
+        }
+        ]
+}
