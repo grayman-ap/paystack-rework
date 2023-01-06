@@ -36,7 +36,7 @@ export default function CardSec() {
                     <CardHeader2>Enjoy phenomenal transaction success rates</CardHeader2>
                     <CardCaption2>We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.</CardCaption2>
                     <div className="flex">
-                        <img src="images/check.svg" alt="" className="w-[15git px] mr-2"/>
+                        <img src="images/check.svg" alt="" className="w-[15px] mr-2"/>
                     <CardLink>Find out how we achieve success rates</CardLink>
                     </div>
                    
@@ -53,47 +53,73 @@ const Card = styled.div`
 // padding:10px;
 `;
 const CardFrame = styled.div`
-
+margin:20px;
 `;
 const CardTitle = styled.div`
-
+margin:90px;
+@media (max-width:1024px){
+    margin:0px;
+}
 `;
 const CardH1 = styled.div`
-
+font-family: Boing;
+font-style: normal;
+font-weight: 800;
+color: rgb(1, 27, 51);
+font-size: 45px;
+line-height: 54px;
 `;
 const CardP = styled.div`
+font-family: Graphik;
+font-style: normal;
+font-weight: 400;
+color: rgb(1, 27, 51);
+font-size: 20px;
+line-height: 30px;
+`;
+
+
+const ImageContainer = styled.div`
+margin:40px 0;
 
 `;
-const Item = styled.div`
-margin:auto;
-width:500px;
+const CardImage = styled.img`
+
+width:100vw;
+
+
+@media (max-width:1000px){
+   
+}
+`;
+const CardContent = styled.div`
+padding:0 40px;
+margin:0 40px ;
+display:flex;
+flex-direction:column;
+@media (max-width:769px){
+    padding:0;
+    margin:0;
+}
+@media (max-width:1024px){
+   padding:0;
+}
 `;
 const CardPane = styled.div`
 display:flex;
 padding:0px;
 margin:90px;
-@media (max-width:1000px){
+@media (max-width:769px){
     flex-direction:column;
     margin:20px;
 }
-`;
-const ImageContainer = styled.div`
-width:100%
-@media (max-width:1000px){
+@media (max-width:1024px){
     margin:0;
-}
+ }
 `;
-const CardImage = styled.img`
-margin:40px 0;
-@media (max-width:1000px){
-    margin:0;
-}
-`;
-const CardContent = styled.div`
-padding:0 30px;
-margin:0 50px;
-display:flex;
-flex-direction:column;
+const Item = styled.div`
+margin:auto;
+width:100%;
 `;
 const CardHeader = styled.h1`
 font-size:35px;
@@ -126,10 +152,12 @@ margin-bottom:30px;
 `;
 const CardUl = styled.ul`
 display:flex;
+@media (max-width:1000px){
+    flex-direction:column;
+}
 `;
 const List = styled.div`
 width:100%;
-margin:0 5px;
 `;
 const CardList = styled.li`
 padding:5px 20px;
