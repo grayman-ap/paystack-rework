@@ -205,11 +205,7 @@ padding:10px;
     margin-top:20px;
     padding:20px;
   }
-  .contain{
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 10px;
-  }
+  
 }
 @media screen and (max-width:1024px) {
   .trust__pane{
@@ -219,7 +215,7 @@ padding:10px;
   }
   .contain{
     display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(2, 3fr);
     grid-gap: 10px;
   }
 }
