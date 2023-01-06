@@ -14,20 +14,8 @@
   font-style: normal;
 
 }
-img{
 
+.card__ul{
+  display:flex;
+  align-items: center;
 }
-h1{
-  font-family: 'web_boingsemibold', Arial, sans-serif;
-  font-weight:normal;
-  font-style:normal;
-  }
-@layer base{
-  body{
-    @apply text-black
-  }
-}
-
-/* ul li:after{
-  background:red;
-} */

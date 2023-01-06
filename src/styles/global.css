@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "web_boingsemibold";
+  src: url("/webfontkit/boing_semibold_web-webfont.woff2") format("woff2"),
+    url("/webfontkit/boing_semibold_web-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Root default styles */
+:root {
+  --white: #fff;
+  --primary: #0b273d;
+  --heroFont: #011b34;
+  --heading3: 2.4rem;
+  --h3Color: #011a33;
+  --h3Family: "web_boingsemibold", Arial, sans-serif;
+  --primaryButton: #3ab75d;
+  --section3Bg: #eaf6fb;
+  --link: #65C67C;
+  --icon:#F0FEF4;
+}
+
+h3 {
+  font-family: var(--h3Family);
+  font-size: var(--heading3);
+  font-weight: normal;
+  color: var(--h3Color);
+}
+a{
+    color:var(--link);
+}
+/* Media Queries */
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 2.2rem;
+  }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}

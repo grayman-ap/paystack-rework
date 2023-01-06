@@ -1,59 +1,65 @@
 import React from "react";
 import styled from "styled-components";
+import cardData from "../../fixtures/stack.json";
 export default function CardSec() {
   return (
     <Card>
-      <CardFrame>
-        <CardTitle>
-          <CardH1>Simple, easy payments</CardH1>
-          <CardP>Building a business is hard. Getting paid shouldn't be.</CardP>
-        </CardTitle>
-        <CardPane>
-          <ImageContainer>
-            <CardImage
-              src="/images/Collect-Payments-for-Multiple-Channels-1.1.gif"
-              alt=""
-            />
-          </ImageContainer>
-          <CardContent>
-            <Item>
-              <CardHeader>
-                Delight customers with a seamless payments experience
-              </CardHeader>
-              <CardCaption>
-                Give your customers the gift of modern, frictionless, painless
-                payments. Integrate Paystack once and let your customers pay you
-                however they want.
-              </CardCaption>
-              <CardUl>
-                <CardList>Card</CardList>
-                <CardList>Bank Account</CardList>
-                <CardList>Bank Transfer</CardList>
-                <CardList>USSD</CardList>
-
-                <CardList>Apple Pay</CardList>
-                <CardList>Visa QR</CardList>
-                <CardList>Mobile Money</CardList>
-                <CardList>POS</CardList>
-              </CardUl>
-            </Item>
-            <Item>
-              <CardHeader2>
-                Enjoy phenomenal transaction success rates
-              </CardHeader2>
-              <CardCaption2>
-                We automatically route payments through the most optimal
-                channels, ensuring the highest transaction success rates in the
-                market.
-              </CardCaption2>
-              <div className="flex">
-                <img src="images/check.svg" alt="" className="w-[15px] mr-2" />
-                <CardLink>Find out how we achieve success rates</CardLink>
-              </div>
-            </Item>
-          </CardContent>
-        </CardPane>
-      </CardFrame>
+      
+        <CardFrame>
+          <CardTitle>
+            <CardH1>Simple, easy payments</CardH1>
+            <CardP>
+              Building a business is hard. Getting paid shouldn't be.
+            </CardP>
+          </CardTitle>
+          <CardPane>
+            <ImageContainer>
+              <CardImage
+                src="/images/Collect-Payments-for-Multiple-Channels-1.1.gif"
+                alt=""
+              />
+            </ImageContainer>
+            <CardContent>
+              <Item>
+                <CardHeader>
+                  Delight customers with a seamless payments experience
+                </CardHeader>
+                <CardCaption>
+                  Give your customers the gift of modern, frictionless, painless
+                  payments. Integrate Paystack once and let your customers pay
+                  you however they want.
+                </CardCaption>
+                <CardUl>
+                    {cardData.item2.map((item) =>(
+                        <div className="card__ul">
+                        <img src={item.image} className="w-[15px] mr-0 p- check__icon" alt="" />
+                        <CardList>{item.list}</CardList>
+                        </div>
+                    ))}
+                </CardUl>
+              </Item>
+              <Item>
+                <CardHeader2>
+                  Enjoy phenomenal transaction success rates
+                </CardHeader2>
+                <CardCaption2>
+                  We automatically route payments through the most optimal
+                  channels, ensuring the highest transaction success rates in
+                  the market.
+                </CardCaption2>
+                <div className="flex">
+                  <img
+                    src="images/check.svg"
+                    alt=""
+                    className="w-[15px] mr-2"
+                  />
+                  <CardLink>Find out how we achieve success rates</CardLink>
+                </div>
+              </Item>
+            </CardContent>
+          </CardPane>
+        </CardFrame>
+   
     </Card>
   );
 }
@@ -123,9 +129,7 @@ const Item = styled.div`
   margin: auto;
   width: 100%;
 `;
-const CardHeader = styled.h1`
-  font-size: 35px;
-  font-weight: normal;
+const CardHeader = styled.h3`
   margin-bottom: 20px;
 `;
 const CardCaption = styled.p`
@@ -137,10 +141,7 @@ const CardCaption = styled.p`
   line-height: 28.5px;
   margin-bottom: 30px;
 `;
-const CardHeader2 = styled.h1`
-  font-size: 35px;
-  font-weight: normal;
-  margin-bottom: 20px;
+const CardHeader2 = styled.h3`
   margin-top: 50px;
 `;
 const CardCaption2 = styled.p`
@@ -156,16 +157,20 @@ const CardUl = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 4fr);
 
-  @media (max-width:769px){
+  @media (max-width: 769px) {
     grid-template-columns: repeat(1, 4fr);
   }
 `;
 const List = styled.div`
   width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
 `;
 const CardList = styled.li`
-  padding: 5px 20px;
-  margin: 10px 0;
+  padding: 5px 10px;
+  margin: 10px 0px;
 `;
 const CardLink = styled.a`
   cursor: pointer;
