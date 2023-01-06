@@ -207,19 +207,19 @@ padding:10px;
   }
   .contain{
     display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(2, 3fr);
     grid-gap: 10px;
   }
 }
 @media screen and (max-width:1024px) {
   .trust__pane{
-    padding:40px;
+    padding:20px;
     margin:0;
  
   }
   .contain{
     display: grid;
-    grid-template-columns: repeat(4, 6fr);
+    grid-template-columns: repeat(3, 4fr);
     grid-gap: 10px;
   }
 }
