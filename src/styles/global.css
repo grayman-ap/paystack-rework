@@ -1,41 +1,83 @@
-@font-face {
-  font-family: "web_boingsemibold";
-  src: url("/webfontkit/boing_semibold_web-webfont.woff2") format("woff2"),
-    url("/webfontkit/boing_semibold_web-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 /* Root default styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 :root {
   --white: #fff;
   --primary: #0b273d;
   --heroFont: #011b34;
-  --heading3: 2.4rem;
+  --heading3: 2.2rem;
+  --heading1: 2.4rem;
   --h3Color: #011a33;
-  --h3Family: "web_boingsemibold", Arial, sans-serif;
+  --paragraph: "Graphik", Arial, sans-serif;
+  --h3Family: "Boing", Arial, sans-serif;
   --primaryButton: #3ab75d;
   --section3Bg: #eaf6fb;
-  --link: #65C67C;
-  --icon:#F0FEF4;
+  --link: #65c67c;
+  --icon: #f0fef4;
 }
 
+h1 {
+  font-family: var(--h3Family);
+  font-size: var(--heading1);
+  font-weight: 800;
+  color: var(--h3Color);
+}
+h2,
 h3 {
   font-family: var(--h3Family);
   font-size: var(--heading3);
-  font-weight: normal;
+  font-weight: 700;
   color: var(--h3Color);
+  margin-bottom:20px;
 }
-a{
-    color:var(--link);
+p {
+  font-family: var(--paragraph);
+  font-weight: 400;
+  color: rgb(1, 27, 51);
+  font-size: 20px;
+  line-height: 28.5px;
+  margin-bottom: 30px;
+}
+a {
+  color: var(--link);
 }
 /* Media Queries */
-@media (max-width: 1024px) {
-  h3 {
-    font-size: 2.2rem;
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.2rem ;
   }
-  @media (max-width: 768px) {
+  h2, 
+  h3 {
+    font-size: 1.5rem;
+  }
+  p{
+    font-size:20px;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2,
+    h3 {
+      font-size: 1.8rem;
+    }
+    p{
+        font-size:18px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+    h2,
     h3 {
       font-size: 1.5rem;
+    }
+    p{
+        font-size:16px;
     }
   }
 }

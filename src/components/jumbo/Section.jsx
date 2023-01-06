@@ -12,37 +12,38 @@ export default function CardSec() {
               Building a business is hard. Getting paid shouldn't be.
             </CardP>
           </CardTitle>
-          <CardPane>
-            <ImageContainer>
-              <CardImage
+          <Item className="card__item">
+          <CardPane className="card__pane">
+            <ImageContainer className="image__container">
+              <CardImage className="card__image"
                 src="/images/Collect-Payments-for-Multiple-Channels-1.1.gif"
                 alt=""
               />
             </ImageContainer>
-            <CardContent>
-              <Item>
-                <CardHeader>
+           
+            <CardContent className="card__content">
+
+                <CardHeader className="card__header">
                   Delight customers with a seamless payments experience
                 </CardHeader>
-                <CardCaption>
+                <CardCaption className="card__caption">
                   Give your customers the gift of modern, frictionless, painless
                   payments. Integrate Paystack once and let your customers pay
                   you however they want.
                 </CardCaption>
                 <CardUl>
-                    {cardData.item2.map((item) =>(
+                    {cardData.item1.map((item) =>(
                         <div className="card__ul">
                         <img src={item.image} className="w-[15px] mr-0 p- check__icon" alt="" />
-                        <CardList>{item.list}</CardList>
+                        <CardList className="card__list">{item.list}</CardList>
                         </div>
                     ))}
                 </CardUl>
-              </Item>
-              <Item>
-                <CardHeader2>
+
+                <CardHeader2 className="card__header">
                   Enjoy phenomenal transaction success rates
                 </CardHeader2>
-                <CardCaption2>
+                <CardCaption2 className="card__caption">
                   We automatically route payments through the most optimal
                   channels, ensuring the highest transaction success rates in
                   the market.
@@ -55,9 +56,10 @@ export default function CardSec() {
                   />
                   <CardLink>Find out how we achieve success rates</CardLink>
                 </div>
-              </Item>
+         
             </CardContent>
           </CardPane>
+          </Item>
         </CardFrame>
    
     </Card>
@@ -66,7 +68,7 @@ export default function CardSec() {
 
 const Card = styled.div``;
 const CardFrame = styled.div`
-  margin: 20px;
+//   margin: 20px;
 `;
 const CardTitle = styled.div`
   margin: 90px;
@@ -74,90 +76,45 @@ const CardTitle = styled.div`
     margin: 0px;
   }
 `;
-const CardH1 = styled.div`
-  font-family: Boing;
-  font-style: normal;
-  font-weight: 800;
-  color: rgb(1, 27, 51);
-  font-size: 45px;
-  line-height: 54px;
+const CardH1 = styled.h1`
+ 
 `;
 const CardP = styled.div`
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: 400;
-  color: rgb(1, 27, 51);
-  font-size: 20px;
-  line-height: 30px;
+
 `;
 
 const ImageContainer = styled.div`
-  margin: 40px 0;
+
 `;
 const CardImage = styled.img`
-  width: 100vw;
 
-  @media (max-width: 1000px) {
-  }
 `;
 const CardContent = styled.div`
-  padding: 0 40px;
-  margin: 0 40px;
-  display: flex;
-  flex-direction: column;
-  @media (max-width: 769px) {
-    padding: 0;
-    margin: 0;
-  }
-  @media (max-width: 1024px) {
-    padding: 0;
-  }
+
 `;
 const CardPane = styled.div`
-  display: flex;
-  padding: 0px;
-  margin: 90px;
-  @media (max-width: 769px) {
-    flex-direction: column;
-    margin: 20px;
-  }
-  @media (max-width: 1024px) {
-    margin: 0;
-  }
+
 `;
 const Item = styled.div`
-  margin: auto;
-  width: 100%;
+
 `;
 const CardHeader = styled.h3`
   margin-bottom: 20px;
 `;
 const CardCaption = styled.p`
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: 400;
-  color: rgb(1, 27, 51);
-  font-size: 20px;
-  line-height: 28.5px;
-  margin-bottom: 30px;
 `;
 const CardHeader2 = styled.h3`
   margin-top: 50px;
+
 `;
 const CardCaption2 = styled.p`
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: 400;
-  color: rgb(1, 27, 51);
-  font-size: 20px;
-  line-height: 28.5px;
-  margin-bottom: 30px;
+ 
 `;
 const CardUl = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 4fr);
 
-  @media (max-width: 769px) {
+  @media (max-width: 600px) {
     grid-template-columns: repeat(1, 4fr);
   }
 `;
@@ -173,6 +130,5 @@ const CardList = styled.li`
   margin: 10px 0px;
 `;
 const CardLink = styled.a`
-  cursor: pointer;
-  color: #3dbe62;
+
 `;

@@ -1,29 +1,6 @@
 {
-    "item":[
-    {
-       
-            "id":1,
-            "image":"/images/Collect-Payments-for-Multiple-Channels-1.1.gif",
-            "title":"Delight customers with a seamless payments experience",
-            "title2":"Enjoy phenomenal transaction success rates",
-            "caption":"Give your customers the gift of modern, frictionless, painless payments. Integrate Paystack once and let your customers pay you however they want.",
-            "caption2":"We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.",
-            "list1":"Card",
-            "list2":"Bank Account",
-            "list3":"Bank Transfer",
-            "list4":"USSD",
-            "list5":"Apple Pay",
-            "list6":"Visa QR",
-            "list7":"Mobile Money",
-            "list8":"POS",
-                       "link":"Find out how we achieve high success rates",
-            "direction":"row"
-        
-        
-    }
    
-],
-        "item2":[
+        "item1":[
             {
        
                 "id":1,
