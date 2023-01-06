@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "image":"images/For-International-Businesses_180823_165939.svg",
+        "title":"Paystack for Global Brands",
+        "content":"We help global brands accept payments from across Africa",
+        "list1":"Learn More",
+        "icon": "/images/check.svg"
+
+    },
+    {
+        "id": 2,
+        "image":"images/For-Entrepreneurs_180823_165709.svg",
+        "title":"Paystack for Entrepreneurs",
+        "content":"From startup to scale-up, we can support you at every stage of your businesses’ growth",
+        "list1":"Learn More",
+        "icon": "/images/check.svg"
+
+    },
+    {
+        "id": 3,
+        "image":"images/For-Large-Corporations_180823_165502.svg",
+        "title":"Paystack for Large Organizations",
+        "content":"Paystack helps many of the largest corporate and government organizations in Nigeria get paid quickly and securely.",
+        "list1":"Learn More",
+        "icon": "/images/check.svg"
+
+    }
+]

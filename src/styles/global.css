@@ -10,6 +10,7 @@
   --heroFont: #011b34;
   --heading3: 2.2rem;
   --heading1: 2.4rem;
+  --heading4: 1.5rem;
   --h3Color: #011a33;
   --paragraph: "Graphik", Arial, sans-serif;
   --h3Family: "Boing", Arial, sans-serif;
@@ -34,6 +35,12 @@ h3 {
   color: var(--h3Color);
   margin-bottom:20px;
 }
+h4{
+  font-family: var(--h3Family);
+  font-size: var(--heading4);
+  font-weight: 800;
+  margin:40px 0 20px 0;
+}
 p {
   font-family: var(--paragraph);
   font-weight: normal;
@@ -44,6 +51,9 @@ p {
 }
 a {
   color: var(--link);
+}
+img{
+  border-radius: 2px;
 }
 /* Media Queries */
 @media screen and (max-width: 1024px) {
