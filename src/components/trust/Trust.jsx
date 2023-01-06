@@ -3,8 +3,10 @@ import styled from "styled-components";
 import trustData from "../../fixtures/trust.json";
 export default function Trust() {
   return (
+    <div className="trust">
     <TrustFrame className="trust__frame">
       <TrustPane className="trust__pane">
+      <TrustContent className="trust__content">
         <TrustHeader className="trust__header">
           <TrustTitle className="trust__title">
             Trusted by 80,000+ businesses
@@ -16,7 +18,7 @@ export default function Trust() {
         </TrustHeader>
         <TrustCard className="trust__card">
           {trustData.map((item) => (
-            <TrustContent className="trust__content">
+           
                 <TrustItem className="card_item">
               <ImageContainer className="img__cont">
                 <TrustImage className="trust__image" src={item.image} />
@@ -29,10 +31,10 @@ export default function Trust() {
                     {item.content}
                 </TrustP>
                 <TrustLink className="trust__link">
-                <div className="card__ul">
+                <div className="card__ul mt-5">
                     <img
                       src={item.icon}
-                      className="w-[15px] mr-0 p-0 check__icon"
+                      className="w-[15px] mr-2 p-0 check__icon"
                       alt=""
                     />
                     {item.list1}
@@ -40,11 +42,13 @@ export default function Trust() {
                 </TrustLink>
               </TrustSub>
               </TrustItem>
-            </TrustContent>
+           
           ))}
         </TrustCard>
+        </TrustContent>
       </TrustPane>
     </TrustFrame>
+    </div>
   );
 }
 const TrustFrame = styled.div``;
