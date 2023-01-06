@@ -1,4 +1,6 @@
-[
+
+    {
+    "item":[
     {
         "id": 1,
         "image":"images/For-International-Businesses_180823_165939.svg",
@@ -26,4 +28,79 @@
         "icon": "/images/check.svg"
 
     }
-]
+],
+    "item2":[
+        {
+            "id":1,
+            "image":"images/Air-Peace-Stack-Blue_200305_154114.svg"
+        },
+        {
+            "id":2,
+            "image":"images/FilmHouse-Stack-Blue_200304_153641.svg"
+        },
+        {
+            "id":3,
+            "image":"images/Piggyvest-Stack-Blue_200304_153734.svg"
+        },
+        {
+            "id":4,
+            "image":"images/Ibom-Air-Stack-Blue_200304_154259.svg"
+        },
+        {
+            "id":5,
+            "image":"images/kuda-Stack-Blue_200304_154345.svg"
+        },
+        {
+            "id":6,
+            "image":"images/Ariiya-Stack-Blue_200304_155307.svg"
+        },
+        {
+            "id":7,
+            "image":"images/Dominos-Plain.svg"
+        },
+        {
+            "id":8,
+            "image":"images/MTN-Plain.svg"
+        },
+        {
+            "id":7,
+            "image":"images/Lagos-Internal-Revenue-Service.svg"
+        },
+        {
+            "id":10,
+            "image":"images/Bolt-Stack-Blue_200304_153027.svg"
+        },
+        {
+            "id":11,
+            "image":"images/Betway-Plain.svg"
+        },
+        {
+            "id":12,
+            "image":"images/carbon-dark.svg"
+        },
+        {
+            "id":13,
+            "image":"images/Axa-mansard-_-Plain.svg"
+        },
+        {
+            "id":14,
+            "image":"images/Abia-State-University.svg"
+        },
+        {
+            "id":15,
+            "image":"images/GIGM-Plain_180827_172142.svg"
+        },
+        {
+            "id":16,
+            "image":"images/IrokoTV-Plain.svg"
+        },
+        {
+            "id":17,
+            "image":"images/Smile-Plain_180827_172218.svg"
+        },
+        {
+            "id":18,
+            "image":"images/Cowrywise-dark.svg"
+        }
+    ]
+    }
