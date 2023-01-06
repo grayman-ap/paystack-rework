@@ -49,5 +49,32 @@
                 "list":"POS",
                 "image":"/images/check.svg"
         }
+        ],
+
+        "item2":[
+            {
+                "id":1,
+                "list":"Collect one-time and recurring payments from your app or website",
+                "image":"/images/check.svg"
+
+            },
+            {
+                "id":1,
+                "list":"Make instant transfers",
+                "image":"/images/check.svg"
+
+            },
+            {
+                "id":1,
+                "list":"Retrieve all your transaction and customer data",
+                "image":"/images/check.svg"
+
+            },
+            {
+                "id":1,
+                "list":"Verify the identity of customers",
+                "image":"/images/check.svg"
+
+            }
         ]
 }

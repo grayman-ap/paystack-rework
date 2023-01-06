@@ -1,9 +1,13 @@
 import React from 'react'
-import CardSec from '../components/jumbo/Section'
+import Api from '../components/jumbo/Api'
+import Payment from '../components/jumbo/Payment'
 
 
 export default function Home() {
   return (
-   <CardSec />
+    <div>
+   <Payment />
+   <Api />
+   </div>
   )
 }
