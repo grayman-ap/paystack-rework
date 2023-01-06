@@ -148,10 +148,7 @@ width:80%;
 .trust__card{
   display:flex;
 }
-.trust__content{
 
-  
-}
 .card_item{
   background:var(--white);
   padding:20px;
@@ -176,13 +173,15 @@ width:80%;
 
 @media screen and (max-width:600px) {
   .trust__frame{
-    padding:20px;
+    padding:10px;
+  }
+  .trust__pane{
+    padding:0px;
   }
   .trust__card{
    flex-direction: column;
   }
   .trust__content{
-   
     padding: 0px;
     margin-right:20px;
     width:100%;
@@ -192,16 +191,13 @@ width:80%;
     background:var(--white);
     width:100%;
     margin-top:20px;
-    padding:30px;
-  }
-  .trust__pane{
     padding:20px;
- 
   }
 }
 @media screen and (max-width:1024px) {
   .trust__pane{
-    padding:30px;
+    padding:10px;
+    margin:0;
  
   }
 }
