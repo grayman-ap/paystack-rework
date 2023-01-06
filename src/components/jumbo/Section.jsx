@@ -5,14 +5,15 @@ export default function CardSec() {
   return (
     <Card>
       
-        <CardFrame>
-          <CardTitle>
+        <CardFrame className="card__frame">
+         
+          <Item className="card__item">
+          <CardTitle className="card__title">
             <CardH1>Simple, easy payments</CardH1>
             <CardP>
               Building a business is hard. Getting paid shouldn't be.
             </CardP>
           </CardTitle>
-          <Item className="card__item">
           <CardPane className="card__pane">
             <ImageContainer className="image__container">
               <CardImage className="card__image"
@@ -68,13 +69,10 @@ export default function CardSec() {
 
 const Card = styled.div``;
 const CardFrame = styled.div`
-//   margin: 20px;
+
 `;
 const CardTitle = styled.div`
-  margin: 90px;
-  @media (max-width: 1024px) {
-    margin: 0px;
-  }
+
 `;
 const CardH1 = styled.h1`
  

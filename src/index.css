@@ -14,6 +14,13 @@
   font-style: normal;
 
 }
+.card__title {
+  width:40%;
+
+}
+.card__frame{
+  margin:5px;
+}
 .card__item{
   /* margin:30px; */
 }
@@ -54,6 +61,10 @@ width:80%;
   color: #3dbe62;
 }
 @media screen and (max-width: 1024px){
+  .card__title {
+    width:80%;
+  
+  }
   .card__item{
     margin:10px;
   }
