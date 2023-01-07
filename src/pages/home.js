@@ -5,6 +5,7 @@ import Payment from '../components/jumbo/Payment'
 import Growth from '../components/trust/Growth'
 import Partner from '../components/trust/Partner'
 import Trust from '../components/trust/Trust'
+import Try from '../components/trust/Try'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
    <Trust />
    <Growth />
    <Partner />
+   <Try />
    </div>
   )
 }

@@ -155,6 +155,20 @@ width:80%;
   
 
 }
+.try__frame{
+  background-image: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.8), 
+      rgba(254, 255, 255, 0.8)
+    ),
+  url("/public/images/curved-pattern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:bottom center;
+  height:100%;
+  
+
+}
 .trust__pane{
   padding:100px;
 
@@ -236,4 +250,10 @@ padding:10px;
 
 .y-comb img{
   width:50px;
+}
+.try_button{
+  background: var(--primaryButton);
+  color:var(--white);
+  padding:15px 40px;
+  border-radius:5px;
 }

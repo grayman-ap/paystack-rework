@@ -84,6 +84,7 @@ const Info = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin:10px;
 `;
 const TrustImg = styled.div``;
 const TrustText = styled.h4``;
