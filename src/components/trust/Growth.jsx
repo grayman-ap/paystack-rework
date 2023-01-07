@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import trustData from "../../fixtures/trust.json";
+import {TrustFrame, TrustPane, TrustContent, TrustHeader,TrustTitle, TrustCaption} from './styles/Trust'
 export default function Growth() {
   return (
 
@@ -32,9 +33,4 @@ export default function Growth() {
 
   );
 }
-const TrustFrame = styled.div``;
-const TrustPane = styled.div``;
-const TrustHeader = styled.div``;
-const TrustTitle = styled.h1``;
-const TrustCaption = styled.p``;
-const TrustContent = styled.div``;
+

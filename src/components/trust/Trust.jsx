@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import trustData from "../../fixtures/trust.json";
+import {TrustFrame, TrustPane, TrustContent, TrustHeader,TrustTitle, TrustCaption, TrustCard, TrustItem, ImageContainer,TrustSub, TrustImage, TrustText, TrustP, TrustLink} from './styles/Trust'
 export default function Trust() {
   return (
     
@@ -53,17 +54,3 @@ export default function Trust() {
 
   );
 }
-const TrustFrame = styled.div``;
-const TrustPane = styled.div``;
-const TrustHeader = styled.div``;
-const TrustTitle = styled.h1``;
-const TrustCaption = styled.p``;
-const TrustCard = styled.div``;
-const TrustContent = styled.div``;
-const TrustItem = styled.div``;
-const ImageContainer = styled.div``;
-const TrustImage = styled.img``;
-const TrustSub = styled.div``;
-const TrustText = styled.h4``;
-const TrustP = styled.p``;
-const TrustLink = styled.a``;
