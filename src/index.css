@@ -67,7 +67,7 @@ width:80%;
   flex-direction: column;
   padding: 0 40px;
   margin: 0 40px;
-  width:70%;
+  width:65%;
 
 }
 
@@ -130,8 +130,8 @@ width:80%;
 .trust__frame{
   background-image: 
     linear-gradient(
-      rgba(234, 246, 251, 0.85), 
-      rgba(234, 246, 251, 0.85)
+      rgba(234, 246, 251, 0.95), 
+      rgba(234, 246, 251, 0.95)
     ),
   url("/public/images/checked-pattern-blue.png");
   background-repeat: no-repeat;
@@ -210,6 +210,7 @@ width:80%;
 .growth__image{
 width:60%;
 padding:10px;
+margin-right:60px;
 }
 @media screen and (max-width:600px) {
   .trust__frame{
@@ -237,8 +238,8 @@ padding:10px;
 }
 @media screen and (max-width:1024px) {
   .trust__pane{
-    padding:20px;
-    margin:0;
+    padding:30px;
+    margin-bottom:60px;
  
   }
   .contain{
