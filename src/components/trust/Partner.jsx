@@ -69,10 +69,10 @@ const TrustCaption = styled.p``;
 const TrustCard = styled.div``;
 const TrustContent = styled.div``;
 const TrustItem = styled.div`
-    height:100%;
+
 `;
 const ImageContainer = styled.div`
-height:40%;
+
 `;
 const TrustImage = styled.img`
     width:25%;
@@ -84,7 +84,7 @@ const Info = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
-    margin:10px;
+    margin:5px;
 `;
 const TrustImg = styled.div``;
 const TrustText = styled.h4``;
@@ -94,7 +94,7 @@ const TrustLink = styled.div`
     align-items:center;
    
     img{
-      width:70px;
+      width:60px;
     }
 `;
 const PName = styled.h5`

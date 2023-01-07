@@ -130,8 +130,8 @@ width:80%;
 .trust__frame{
   background-image: 
     linear-gradient(
-      rgba(234, 246, 251, 0.8), 
-      rgba(234, 246, 251, 0.8)
+      rgba(234, 246, 251, 0.85), 
+      rgba(234, 246, 251, 0.85)
     ),
   url("/public/images/checked-pattern-blue.png");
   background-repeat: no-repeat;
@@ -144,8 +144,8 @@ width:80%;
 .partner__frame{
   background-image: 
     linear-gradient(
-      rgba(234, 246, 251, 0.7), 
-      rgba(234, 246, 251, 0.7)
+      rgba(234, 246, 251, 0.85), 
+      rgba(234, 246, 251, 0.85)
     ),
   url("/public/images/circular-pattern.png");
   background-repeat: no-repeat;
@@ -158,13 +158,13 @@ width:80%;
 .try__frame{
   background-image: 
     linear-gradient(
-      rgba(255, 255, 255, 0.8), 
-      rgba(254, 255, 255, 0.8)
+      rgba(255, 255, 255, 0.85), 
+      rgba(254, 255, 255, 0.85)
     ),
   url("/public/images/curved-pattern.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:bottom center;
+  background-position:center center;
   height:100%;
   
 
