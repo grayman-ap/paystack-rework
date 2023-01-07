@@ -130,13 +130,27 @@ width:80%;
 .trust__frame{
   background-image: 
     linear-gradient(
-      rgba(234, 246, 251, 0.95), 
-      rgba(234, 246, 251, 0.95)
+      rgba(234, 246, 251, 0.8), 
+      rgba(234, 246, 251, 0.8)
     ),
   url("/public/images/checked-pattern-blue.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height:100%;
+  
+
+}
+.partner__frame{
+  background-image: 
+    linear-gradient(
+      rgba(234, 246, 251, 0.7), 
+      rgba(234, 246, 251, 0.7)
+    ),
+  url("/public/images/circular-pattern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:top right;
   height:100%;
   
 
@@ -215,7 +229,11 @@ padding:10px;
   }
   .contain{
     display: grid;
-    grid-template-columns: repeat(2, 3fr);
+    grid-template-columns: repeat(3, 4fr);
     grid-gap: 10px;
   }
+}
+
+.y-comb img{
+  width:50px;
 }

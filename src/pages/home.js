@@ -3,6 +3,7 @@ import Api from '../components/jumbo/Api'
 import Fraud from '../components/jumbo/Fraud'
 import Payment from '../components/jumbo/Payment'
 import Growth from '../components/trust/Growth'
+import Partner from '../components/trust/Partner'
 import Trust from '../components/trust/Trust'
 
 
@@ -14,6 +15,7 @@ export default function Home() {
    <Fraud />
    <Trust />
    <Growth />
+   <Partner />
    </div>
   )
 }

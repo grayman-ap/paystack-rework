@@ -102,5 +102,33 @@
             "id":18,
             "image":"images/Cowrywise-dark.svg"
         }
-    ]
+    ],
+
+        "item3":[
+            {
+                "id":1,
+                "logo":"images/patrick-collison-headshot.jpg",
+                "content": "Paystack is highly technical and fanatically customer oriented. We’re excited to back such people in one of the world’s fastest-growing regions.",
+                "icon":"/images/stripe.png",
+                "name":"Patrick Collison",
+                "caption":"CEO, Stripe"
+            },
+            {
+                "id":2,
+                "logo":"images/otto-williams.jpeg",
+                "content": "Our investment in Paystack aligns with the kind of investments we look for - those that will help extend our reach into the global commerce ecosystem",
+                "icon":"/images/Visa-_-Color.png",
+                "name":"Otto Williams",
+                "caption":"Head of Strategic Partnerships, Fintech & Ventures CEMEA, Visa"
+            },
+            {
+                "id":3,
+                "logo":"images/michael-siebel-headshot.jpeg",
+                "content": "As YC's first Nigerian startup Paystack leads the charge of great companies coming out of Africa, powering modern payments for an entire continent.",
+                "icon":"/images/ycombinator-logo.png",
+                "name":"Michael Seibel",
+                "caption":"CEO, Partner, Y Combinator",
+                "class":"y-comb"
+            }
+        ]
     }

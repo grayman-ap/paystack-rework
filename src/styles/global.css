@@ -65,7 +65,7 @@ img{
     font-size: 1.5rem;
   }
   p{
-    font-size:20px;
+    font-size:18px;
   }
   @media screen and (max-width: 600px) {
     h1 {
@@ -73,10 +73,10 @@ img{
     }
     h2,
     h3 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
     p{
-        font-size:18px;
+        font-size:16px;
     }
   }
   @media screen and (max-width: 320px) {
@@ -88,7 +88,7 @@ img{
       font-size: 1.2rem;
     }
     p{
-        font-size:16px;
+        font-size:15px;
     }
   }
 }
