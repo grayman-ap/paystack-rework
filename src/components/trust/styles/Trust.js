@@ -3,7 +3,9 @@ import styled from 'styled-components'
 export const TrustFrame = styled.div``;
 export const TrustPane = styled.div``;
 export const TrustHeader = styled.div``;
-export const TrustTitle = styled.h1``;
+export const TrustTitle = styled.h1`
+    width:40%;
+`;
 export const TrustCaption = styled.p``;
 export const TrustCard = styled.div``;
 export const TrustContent = styled.div``;

@@ -8,7 +8,7 @@ export default function Try() {
       <TrustFrame className="try__frame">
         <TrustPane className="trust__pane">
           <TrustContent className="trust__content">
-            <TryHeader className="trust__header">
+            <TryHeader className="trust__header mt-[60px]">
               <TrustCaption className="trust__caption">
                 Try Paystack Now
               </TrustCaption>

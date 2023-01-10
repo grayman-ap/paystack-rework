@@ -18,6 +18,7 @@
   --section3Bg: #eaf6fb;
   --link: #65c67c;
   --icon: #f0fef4;
+  --nav: #F1FEF4;
 }
 
 h1 {
@@ -50,11 +51,73 @@ p {
   margin-bottom: 30px;
 }
 a {
-  color: var(--link);
+  color: var(--primary);
+}
+a:hover{
+  color: var(--a);
+  transition:all .2s ease-in-out
 }
 img{
   border-radius: 2px;
 }
+.header{
+  background-color: rgba(255, 255, 255, 0.919);
+  transition: all .40s ease-in-out;
+  border-bottom:.1px solid #ccc;
+  top:0;
+  position:fixed;
+  width:100%;
+
+}
+/*************** Menu-Icon styling *************/
+
+#icon-nav{
+  display: none;
+  position: relative;
+  width:60px;
+  height:45px;
+  transform-origin: center;
+  transition: all .5s ease-in-out;
+}
+
+#icon-nav span{
+  display:block;
+  width:40%;
+  height:3px;
+  background:#000;
+  position: absolute;
+  transition:all .4s ease-in-out;
+}
+
+#icon-nav span:nth-child(1){
+  top:0;
+  transform-origin:left center;
+}
+#icon-nav span:nth-child(2){
+  top:8px;
+  transform-origin:left center;
+}
+#icon-nav span:nth-child(3){
+  top:16px;
+  transform-origin: left center;
+}
+
+#icon-nav.open span:nth-child(1){
+  top:0px;
+  left:6px;
+  transform: rotate(45deg);
+}
+#icon-nav.open span:nth-child(2){
+  width:0%;
+ opacity:0;
+}
+#icon-nav.open span:nth-child(3){
+  left:5px;
+  top:17px;
+  transform: rotate(-45deg);
+}
+
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   h1 {
@@ -67,6 +130,10 @@ img{
   p{
     font-size:18px;
   }
+  #icon-nav{
+    display: flex;
+  }
+
   @media screen and (max-width: 600px) {
     h1 {
       font-size: 2rem;

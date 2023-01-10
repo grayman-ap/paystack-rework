@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import * as ROUTES from "./constants/routes";
+import Navbar from "./components/header/Header";
 import {
   Home,
   About,
@@ -38,6 +39,7 @@ import { Star } from "@material-ui/icons";
 function App() {
   return (
     <>
+      
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
