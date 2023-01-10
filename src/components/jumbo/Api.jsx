@@ -30,7 +30,7 @@ export default function Api() {
              
               <div className="flex mt-5">
                 <img src="images/check.svg" alt="" className="w-[15px] mr-2" />
-                <CardLink>Paystack API Quickstart</CardLink>
+                <CardLink className="inner__link">Paystack API Quickstart</CardLink>
               </div>
             </CardContent>
             <ImageContainer className="image__container">

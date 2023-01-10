@@ -21,7 +21,7 @@ export default function Growth() {
           {trustData.item2.map((item) => (
            <div className="display-grid">
            
-                <img className="growth__image" src={item.image} />
+                <img className="growth__image" src={item.image} alt={item.alt} />
             
            </div>
           ))}

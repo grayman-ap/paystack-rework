@@ -32,75 +32,120 @@
     "item2":[
         {
             "id":1,
-            "image":"images/Air-Peace-Stack-Blue_200305_154114.svg"
+            "image":"images/Air-Peace-Stack-Blue_200305_154114.svg",
+            "alt":"Air-Peace"
+            
         },
         {
             "id":2,
-            "image":"images/FilmHouse-Stack-Blue_200304_153641.svg"
+            "image":"images/FilmHouse-Stack-Blue_200304_153641.svg",
+            "alt":"FilmHouse"
         },
         {
             "id":3,
-            "image":"images/Piggyvest-Stack-Blue_200304_153734.svg"
+            "image":"images/Piggyvest-Stack-Blue_200304_153734.svg",
+            "alt":"Piggyvest"
         },
         {
             "id":4,
-            "image":"images/Ibom-Air-Stack-Blue_200304_154259.svg"
+            "image":"images/Ibom-Air-Stack-Blue_200304_154259.svg",
+            "alt":"Ibom-Air"
         },
         {
             "id":5,
-            "image":"images/kuda-Stack-Blue_200304_154345.svg"
+            "image":"images/kuda-Stack-Blue_200304_154345.svg",
+            "alt":"Kuda-Stack"
         },
         {
             "id":6,
-            "image":"images/Ariiya-Stack-Blue_200304_155307.svg"
+            "image":"images/Ariiya-Stack-Blue_200304_155307.svg",
+            "alt":"Ariiya-Stack"
         },
         {
             "id":7,
-            "image":"images/Dominos-Plain.svg"
+            "image":"images/Dominos-Plain.svg",
+            "alt":"Dominos"
         },
         {
             "id":8,
-            "image":"images/MTN-Plain.svg"
+            "image":"images/MTN-Plain.svg",
+            "alt":"Mtn-Plain"
         },
         {
             "id":7,
-            "image":"images/Lagos-Internal-Revenue-Service.svg"
+            "image":"images/Lagos-Internal-Revenue-Service.svg",
+            "alt":"Lagos-Internal"
         },
         {
             "id":10,
-            "image":"images/Bolt-Stack-Blue_200304_153027.svg"
+            "image":"images/Bolt-Stack-Blue_200304_153027.svg",
+            "alt":"Bolt-Stack"
         },
         {
             "id":11,
-            "image":"images/Betway-Plain.svg"
+            "image":"images/Betway-Plain.svg",
+            "alt":"Betway"
         },
         {
             "id":12,
-            "image":"images/carbon-dark.svg"
+            "image":"images/carbon-dark.svg",
+            "alt":"Carbon-dark"
         },
         {
             "id":13,
-            "image":"images/Axa-mansard-_-Plain.svg"
+            "image":"images/Axa-mansard-_-Plain.svg",
+            "alt":"Axa-mansard"
         },
         {
             "id":14,
-            "image":"images/Abia-State-University.svg"
+            "image":"images/Abia-State-University.svg",
+            "alt":"Abia-stata"
         },
         {
             "id":15,
-            "image":"images/GIGM-Plain_180827_172142.svg"
+            "image":"images/GIGM-Plain_180827_172142.svg",
+            "alt":"GiGM-Plain"
         },
         {
             "id":16,
-            "image":"images/IrokoTV-Plain.svg"
+            "image":"images/IrokoTV-Plain.svg",
+            "alt":"IrokoTV"
         },
         {
             "id":17,
-            "image":"images/Smile-Plain_180827_172218.svg"
+            "image":"images/Smile-Plain_180827_172218.svg",
+            "alt":"Smile-Plain"
         },
         {
             "id":18,
-            "image":"images/Cowrywise-dark.svg"
+            "image":"images/Cowrywise-dark.svg",
+            "alt":"Cowrywise"
+        }
+    ],
+    "item4":[
+      
+       
+        {
+            "id":1,
+            "image":"images/Dominos-Plain.svg",
+            "alt":"Dominos"
+        },
+        {
+            "id":2,
+            "image":"images/MTN-Plain.svg",
+            "alt":"Mtn"
+        },
+       
+        {
+            "id":3,
+            "image":"images/Bolt-Stack-Blue_200304_153027.svg",
+            "alt":"Bolt"
+        },
+       
+        {
+            "id":4,
+            "image":"images/Axa-mansard-_-Plain.svg",
+            "alt":"Axa-mansard"
         }
     ],
 

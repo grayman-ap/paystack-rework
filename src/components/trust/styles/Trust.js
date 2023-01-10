@@ -6,7 +6,9 @@ export const TrustHeader = styled.div``;
 export const TrustTitle = styled.h1`
     width:40%;
 `;
-export const TrustCaption = styled.p``;
+export const TrustCaption = styled.p`
+margin-bottom:30px;
+`;
 export const TrustCard = styled.div``;
 export const TrustContent = styled.div``;
 export const TrustItem = styled.div``;

@@ -52,7 +52,7 @@ export default function Payment() {
               </CardCaption2>
               <div className="flex">
                 <img src="images/check.svg" alt="" className="w-[15px] mr-2" />
-                <CardLink>Find out how we achieve success rates</CardLink>
+                <CardLink className="inner__link">Find out how we achieve success rates</CardLink>
               </div>
             </CardContent>
           </CardPane>
@@ -75,11 +75,14 @@ const Item = styled.div``;
 const CardHeader = styled.h3`
   margin-bottom: 20px;
 `;
-const CardCaption = styled.p``;
+const CardCaption = styled.p`
+`;
 const CardHeader2 = styled.h3`
   margin-top: 50px;
 `;
-const CardCaption2 = styled.p``;
+const CardCaption2 = styled.p`
+margin-bottom:30px;
+`;
 const CardUl = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 4fr);
