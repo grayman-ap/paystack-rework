@@ -61,6 +61,20 @@ header{
   color: #fff;
   font-size: var(--heading6);
   font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.top__content img{
+ font-size: 1px;
+ animation-name:animateme;
+ animation-duration: .9s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes animateme {
+ from{transform: translateX(9px);}
+  to{ left:0px}
+
 }
 
 .pane {
@@ -139,7 +153,7 @@ header{
   line-height:1.2em;
 }
 .left_item p{
-  font-size:21px;
+  font-size:20px;
   font-weight:300;
   line-height:38px;
 }
@@ -322,7 +336,12 @@ header{
     flex-direction: column;
   }
   .left_item h1{
-    font-size:33px;
+    font-size:28px;
+  }
+  .left_item p{
+    font-size:18px;
+    font-weight:300;
+    line-height:normal;
   }
   .image__container {
     width: 100%;
@@ -366,6 +385,9 @@ header{
   }
    .trust__p {
      font-size: .9rem;
+   }
+   .top__content{
+    flex-direction: column;
    }
 }
 

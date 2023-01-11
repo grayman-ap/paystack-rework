@@ -22,7 +22,7 @@ export default function Hero() {
                   >
                     Create a free account
                   </button>
-                  <a href="#" className="inner__link ml-6 p-3">
+                  <a href="#" className="inner__link md:ml-6 p-3">
                     {" "}
                     or Contact Sales
                   </a>

@@ -4,6 +4,8 @@ import Menu from "./Menu";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { useEffect } from "react";
 import MenuIcon from "../menu/Menu";
+import { ArrowRight, ArrowForward } from "@mui/icons-material";
+
 export default function Navbar(props) {
   const [isHover, setIsHover] = useState(false);
   const [isScroll, setIsScroll]= useState(false);
@@ -34,12 +36,14 @@ export default function Navbar(props) {
   return (
    <>   
     <div className="header__container" >
-      <div className="header__top">
-        <div className="top__content">
-          <span className="header__text">
+      <div className="header__top transition-all  duration-700">
+        <div className="top__content ">
+          <span className="header__text ">
             New: Create delightful, in-person payment experiences with Paystack
             Terminal
+         
           </span>
+          <img src="images/arrow.svg" alt="arrow" className="w-[20px]"/>
         </div>
       </div>
       <header className={`${isScroll && 'header' }`} >
@@ -73,6 +77,7 @@ export default function Navbar(props) {
                 <li>
                   <a href="#">Learn
                   <span className="u-icon-arrow"></span>
+                  
                   </a>
                 </li>
               </div>
@@ -111,7 +116,7 @@ export default function Navbar(props) {
           <MenuIcon className="ul_nav-icon"/>
         </nav>
       </div>
-      
+     
       </header>
     </div>
     

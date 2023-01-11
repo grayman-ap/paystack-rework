@@ -48,7 +48,7 @@ p {
   font-weight: normal;
   color: rgb(1, 27, 51);
   font-size: 20px;
-  line-height: 28.5px;
+  /* line-height: 28.5px; */
   /* margin-bottom: 30px; */
 }
 a {
@@ -78,7 +78,7 @@ img{
 #icon-nav{
 display: none;
 width:60px;
-/* height:45px; */
+/* height:5px; */
 
 right:0px;
 top:0;
@@ -182,4 +182,29 @@ transition: all .4s ease-in-out;
         font-size:15px;
     }
   }
+}
+
+.arrow2{
+  position:relative;
+  width:60px;
+}
+.arrow2 span{
+  display:inline-flex;
+  position:absolute;
+  width:25%;
+  height:1px;
+  background-color: rgb(255, 255, 255);
+}
+.arrow2 span:nth-child(1), .arrow2 span:nth-child(3){
+  width:4px;
+  left:6px;
+ 
+}
+.arrow2 span:nth-child(1){
+  top:-1px;
+  transform: rotate(45deg);
+}
+.arrow2 span:nth-child(3){
+  top:1px;
+  transform: rotate(-45deg);
 }
