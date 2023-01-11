@@ -76,9 +76,10 @@ img{
 /*************** Menu-Icon styling *************/
 
 #icon-nav{
-  display: none;
+display: none;
 width:60px;
-height:45px;
+/* height:45px; */
+
 right:0px;
 top:0;
 margin-top:28px;
@@ -95,6 +96,7 @@ transition: all .4s ease-in-out;
   position:absolute;
   background:#000;
   opacity: 1;
+  border-radius: 5 0px;
   left:0px;
   transition:all .2s ease-in-out;
 }
