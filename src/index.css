@@ -37,6 +37,7 @@
   display:none;
   transition: all .5s ease-in-out;
 }
+
 .header__container{
   position:relative;
 }
@@ -68,14 +69,14 @@ header{
 .nav {
   display: flex;
   align-items: center;
-  /* margin-top: 40px; */
   padding: 15px 0;
   justify-content: space-between;
 }
 .navbar__left {
   display: flex;
   align-items: center;
-  width: 50%;
+  left:0;
+  /* width: 60%; */
 }
 .pane .logo {
   width: 120px;
@@ -91,16 +92,21 @@ header{
 .item {
   display: flex;
   align-items: center;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 .navbar__right {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 20px;
+  position: absolute;
+  right:0;
+}
+.nav-_ul{
+  margin:0 15px;
 }
 .nav-_ul li {
-  margin: 12px;
+  margin: 9px;
   
 }
 .nav-_ul li a{
@@ -209,6 +215,11 @@ header{
 .card__ul {
   display: flex;
   align-items: center;
+}
+.card__ul img::before{
+  content:"";
+  background:#f0fef4f1;
+  padding:20px;
 }
 .card__pane {
   display: flex;
@@ -347,6 +358,15 @@ header{
   .header__top{
     text-align: center;
   }
+  .trust__text {
+    font-size: 1rem;
+   }
+   .trust__title{
+    width:100%;
+  }
+   .trust__p {
+     font-size: .9rem;
+   }
 }
 
 /* Trust Section */
@@ -392,6 +412,9 @@ header{
 .trust__card {
   display: flex;
 }
+/* .trust__title{
+  width:50%;
+} */
 .trust__text {
   width: 60%;
 }
@@ -406,7 +429,9 @@ header{
 .trust__image {
   width: 40%;
 }
-
+/* .trust__title{
+  width:60%;
+} */
 .trust__p {
   margin: 0;
   font-size: 1rem;
@@ -439,10 +464,10 @@ header{
   }
   .trust__content {
     padding: 0px;
-    margin-right: 20px;
     width: 100%;
     margin-top: 20px;
   }
+ 
   .card_item {
     background: var(--white);
     width: 100%;
@@ -460,7 +485,7 @@ header{
 }
 @media screen and (max-width: 1024px) {
   .trust__pane {
-    padding: 30px;
+    padding: 10px;
     margin-bottom: 60px;
   }
   .contain {
@@ -489,6 +514,7 @@ header{
   color: var(--white);
   padding: 0px 20px;
   height: 40px;
+  margin:0px 0px 0px 10px; 
   border-radius: 5px;
   font-size: 14px;
 }

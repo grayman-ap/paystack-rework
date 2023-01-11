@@ -44,18 +44,21 @@ export default function Navbar(props) {
       </div>
       <header className={`${isScroll && 'header' }`} >
       <div className="pane">
+     
       <nav className="nav">
         <div className="navbar__left">
         <div className="logo">
             <img src="images/Paystack_Logo.png" alt="Logo" />
+            
           </div>
           
             <ul className="nav-_ul">
               <div className="item">
                 <li>
                   <a href="#">
+                 
                     Why Paystack 
-                    <ArrowDropDownIcon />
+                    <span className="u-icon-arrow"></span>
                   </a>
                  
                 </li>
@@ -69,7 +72,7 @@ export default function Navbar(props) {
                 </li>
                 <li>
                   <a href="#">Learn
-                  <ArrowDropDownIcon />
+                  <span className="u-icon-arrow"></span>
                   </a>
                 </li>
               </div>
@@ -82,13 +85,13 @@ export default function Navbar(props) {
                 <li>
                   <a href="#">
                     Developer
-                    <ArrowDropDownIcon />
+                    <span className="u-icon-arrow"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
                     Support
-                    <ArrowDropDownIcon />
+                    <span className="u-icon-arrow"></span>
                   </a>
                 </li>
                 <li>
@@ -96,7 +99,7 @@ export default function Navbar(props) {
                 </li>
                 <button className="try_button2">Create a free Account</button>
                 <div className="nav_country">
-                  <img className="w-[15px] ml-4" src="images/ng.svg" alt="" />
+                  <img className="w-[15px] ml-[5px]" src="images/ng.svg" alt="" />
                   
                 </div>
                
@@ -105,9 +108,10 @@ export default function Navbar(props) {
             </ul>
            
           </div>
-           {/* <MenuIcon className="menuIcon" /> */}
+          <MenuIcon className="ul_nav-icon"/>
         </nav>
       </div>
+      
       </header>
     </div>
     

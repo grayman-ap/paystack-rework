@@ -2,9 +2,19 @@ import styled from 'styled-components'
 
 export const TrustFrame = styled.div``;
 export const TrustPane = styled.div``;
-export const TrustHeader = styled.div``;
+export const TrustHeader = styled.div`
+width:55%;
+@media (max-width:768px){
+    width:100%;
+
+}
+`;
 export const TrustTitle = styled.h1`
-    width:40%;
+    font-size:45px;
+    @media (max-width:600px){
+       font-size:30px;
+    
+    }
 `;
 export const TrustCaption = styled.p`
 margin-bottom:30px;

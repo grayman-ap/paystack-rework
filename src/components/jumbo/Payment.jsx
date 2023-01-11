@@ -84,12 +84,14 @@ const CardCaption2 = styled.p`
 margin-bottom:30px;
 `;
 const CardUl = styled.ul`
+  margin-top:20px;
   display: grid;
   grid-template-columns: repeat(2, 4fr);
 
   @media (max-width: 600px) {
     grid-template-columns: repeat(1, 4fr);
   }
+
 `;
 const List = styled.div`
   width: 100%;
@@ -99,6 +101,5 @@ const List = styled.div`
 `;
 const CardList = styled.li`
   padding: 5px 10px;
-  margin: 10px 0px;
 `;
 const CardLink = styled.a``;
